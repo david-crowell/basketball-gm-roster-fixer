@@ -1,0 +1,13 @@
+{
+  "name": "fix-basketball-gm-roster",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node fix_roster"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
