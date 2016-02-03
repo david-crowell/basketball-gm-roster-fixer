@@ -10,7 +10,7 @@ function readRoster(){
 
 function saveRoster(roster){
 	var stringified = JSON.stringify(roster);
-	fs.writeFileSync(FILEPATH, stringified);
+	fs.writeFileSync(filePath(), stringified);
 }
 
 function filePath(){
